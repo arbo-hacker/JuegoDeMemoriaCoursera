@@ -1,4 +1,8 @@
-//: Playground - noun: a place where people can play
+/**
+* %author  Alejandro Barreto
+* %create  20/10/2015
+* %Description Tarea de la Semana 2 del curso "Swift: programar para iOS"
+**/
 
 import UIKit
 
@@ -15,5 +19,7 @@ for i in 0...100{
         if i >= 30 && i <= 40 {
             print("\(i)Viva Swift!!!")
         }
+    }else {
+        print(i) // imprime el cero
     }
 }
